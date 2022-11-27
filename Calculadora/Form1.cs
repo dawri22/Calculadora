@@ -260,5 +260,10 @@ namespace Calculadora
             operador = Operacion.Division;
             ObtenerValor("/");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
