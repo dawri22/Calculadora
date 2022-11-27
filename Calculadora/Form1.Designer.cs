@@ -47,6 +47,7 @@
             this.btn5 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnsalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDivision
@@ -174,9 +175,9 @@
             this.lbHistorial.AutoSize = true;
             this.lbHistorial.Location = new System.Drawing.Point(24, 36);
             this.lbHistorial.Name = "lbHistorial";
-            this.lbHistorial.Size = new System.Drawing.Size(50, 20);
+            this.lbHistorial.Size = new System.Drawing.Size(65, 20);
             this.lbHistorial.TabIndex = 2;
-            this.lbHistorial.Text = "label1";
+            this.lbHistorial.Text = "Historial";
             // 
             // btnigual
             // 
@@ -240,11 +241,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnsalir
+            // 
+            this.btnsalir.Location = new System.Drawing.Point(192, 287);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(50, 43);
+            this.btnsalir.TabIndex = 5;
+            this.btnsalir.Text = "=";
+            this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(269, 383);
+            this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn5);
@@ -293,5 +305,6 @@
         private Button btn5;
         private Button btn2;
         private Button button1;
+        private Button btnsalir;
     }
 }
