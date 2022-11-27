@@ -247,7 +247,7 @@
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(50, 43);
             this.btnsalir.TabIndex = 5;
-            this.btnsalir.Text = "=";
+            this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
             this.btnsalir.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -255,6 +255,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(269, 383);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.button1);
@@ -276,6 +277,7 @@
             this.Controls.Add(this.btnSuma);
             this.Controls.Add(this.btnMultiplicacion);
             this.Controls.Add(this.btnDivision);
+            this.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.Name = "Form1";
             this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Form1_Load);
